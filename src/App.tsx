@@ -17,6 +17,7 @@ function App() {
 
   return (
     <div className={styles.mainContainer}>
+      <h4>When a Selector is in focus, press Escape, ArrowDown, ArrowUp, Space, and Enter for navigation.</h4>
       <div className={styles.selectorContainer}>
         <label>Single Selector </label> <Select options={options} value={value2} onChange={(o) => setValue2(o)} />
       </div>
